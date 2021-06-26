@@ -11,12 +11,13 @@
         <div class="container">
             <div class="main">
                 <div class="greeting-icon-box">
-                    <h3 class="greetings">Greetings! Little Humans</h3>
+                    <h3 class="greetings">Greetings! Faculties</h3>
                     <div class="icons">
-                        <img src="/assets/studentFemale.png" alt="Female Student" class="icons female">
-                        <img src="/assets/studentMale.png" alt="Male Student" class="icons male">
+                        <img src="/assets/teacherF.png" alt="Female Faculty" class="icons female">
+                        <img src="/assets/teacherM.png" alt="Male Faculty" class="icons male">
                     </div>
                     <div class="credits">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
                 </div>
                 <div class="form-box">
                     <img class="logo amsai" src="/assets/Logo.png" alt="AMSAI Logo">

@@ -154,6 +154,16 @@ input:focus{
    text-decoration: none;
 }
 
+.credits{
+  color: antiquewhite;
+    font-size: x-small;
+   
+}
+
+.credits a{
+    color: antiquewhite;
+}
+
 a:hover{
     color: #FD6300;
     text-decoration: underline;
