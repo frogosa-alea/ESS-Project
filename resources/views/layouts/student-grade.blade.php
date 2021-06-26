@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Homepage</title>
+    <title>Grades</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/1f7074acbb.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -31,13 +31,13 @@
 
     <!-- Banner Start -->
     <section>
-    <div class="container container-md">
+    <div class="container container-md grades-content">
         <div class="row">
             <div class="col">
-            <table class="table ">
+            <table class="table grades-student-info">
                     <thead>
                         <tr>
-                            <th scope="col">Dela Cruz, Juan</th>
+                            <th scope="col" colspan="2" class="text-center">Dela Cruz, Juan</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -55,9 +55,10 @@
                         </tr>
                     </tbody>
                 </table>
+                <br><br>
                 <!-- Learner Progress and Achievements Table -->
-                <table class="table text-center">
-                    <thead> Learner Progress and Achievements </thead>
+                <table class="table text-center grades-progress-achievement">
+                    <thead><th colspan="3">Learner Progress and Achievements</th>  </thead>
                     <tbody>
                         <tr>
                             <th scope="col">Descriptors</th>
@@ -95,6 +96,13 @@
             <div class="col">
                 <!-- second column -->
                 <table class="table ">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col" >Subject</th>
+                            <th scope="col" colspan="4" class="text-center">GRADING PERIOD</th>
+                        </tr>
+                    </thead>
                     <thead>
                         <tr>
                             <th scope="col"></th>
