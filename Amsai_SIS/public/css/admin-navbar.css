@@ -1,0 +1,8 @@
+nav{
+    background-color: aqua;
+    grid-area: nav;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

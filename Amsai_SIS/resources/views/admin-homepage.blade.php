@@ -12,12 +12,14 @@
     <div class="container">
         <nav>Nav Bar</nav>
         <main>Main Content</main>
-        <div>
-            @include(partials.admin-sidebar)
-        </div>
         
-        <footer>Footer</footer>
-    
+
+        <footer>footer</footer>
+        <div id="sidebar">
+            @include("partials.admin-sidebar");
+        </div>
+       
+      
     </div>
 </body>
 </html>

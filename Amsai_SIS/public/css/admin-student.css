@@ -1,0 +1,67 @@
+@import url("admin.css");
+
+
+
+.main-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header header"
+    "content1 content2 content3 content4"
+    "content5 content5 content5 content6"
+    "content5 content5 content5 content7"
+    ;
+    grid-gap: 1em;
+    margin: 2%;
+   
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--main-radius);
+    padding: var(--main-padding);
+    justify-content: center;
+    align-content: center;
+}
+
+header{
+    background-color: darkgreen;
+    grid-area: header;
+    border-radius: var(--main-radius);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#content1{
+    background-color: darkgoldenrod;
+    grid-area: content1;
+}
+#content2{
+    background-color: darkgoldenrod;
+    grid-area: content2;
+}
+#content3{
+    background-color: darkgoldenrod;
+    grid-area: content3;
+}
+#content4{
+    background-color: darkgoldenrod;
+    grid-area: content4;
+}
+#content5{
+    background-color: darkgoldenrod;
+    grid-area: content5;
+}
+#content6{
+    background-color: darkgoldenrod;
+    grid-area: content6;
+}
+#content7{
+    background-color: darkgoldenrod;
+    grid-area: content7;
+}
+

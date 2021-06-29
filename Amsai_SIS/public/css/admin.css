@@ -1,3 +1,11 @@
+@import url("admin-sidebar.css");
+@import url("admin-navbar.css");
+
+
+:root{
+    --main-radius:10px;
+    --main-padding:5px;
+}
 
 *{
     margin:0;
@@ -7,7 +15,6 @@
 
 
 .container{
-    
     display: grid;
     height: 100vh;
     grid-template-columns: 0.5fr 3fr;
@@ -17,32 +24,21 @@
     "sidebar main"
     "sidebar footer";
     grid-gap: 0.2rem;
-    
-
 }
 
-nav{
-    background-color: aqua;
-    grid-area: nav;
-}
 
 main{
     background-color: antiquewhite;
     grid-area: main;
 }
 
-#sidebar{
-    background-color: burlywood;
-    grid-area: sidebar;
-}
-
 footer{
-    background-color:cadetblue;
     grid-area: footer;
+    background-color: aqua;
 }
 
-@media (max-width:736px) {
-    #sidebar a span{
-        display:none;
-    }
-}
+
+
+
+
+

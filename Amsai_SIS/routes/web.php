@@ -28,3 +28,7 @@ Route::get('/admin', function () {
     return view('admin-homepage');
 });
 
+Route::get('/admin-student', function () {
+    return view('admin-student');
+});
+
