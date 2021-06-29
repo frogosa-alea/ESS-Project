@@ -14,13 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing');
 });
 
 Route::get('/loginStudent', function () {
-    return view('loginStudent');
+    return view('login-student');
 });
 Route::get('/loginFaculty', function () {
-    return view('loginFaculty');
+    return view('login-faculty');
+});
+
+Route::get('/admin', function () {
+    return view('admin-homepage');
 });
 
