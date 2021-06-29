@@ -13,7 +13,7 @@
         <nav>Nav Bar</nav>
         <main>Main Content</main>
         <div>
-            @include(partials.admin-navbar)
+            @include(partials.admin-sidebar)
         </div>
         
         <footer>Footer</footer>
