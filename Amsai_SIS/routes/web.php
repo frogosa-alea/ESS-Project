@@ -25,7 +25,7 @@ Route::get('/loginFaculty', function () {
 });
 
 Route::get('/admin', function () {
-    return view('admin-homepage');
+    return view('admin');
 });
 
 Route::get('/admin-student', function () {
