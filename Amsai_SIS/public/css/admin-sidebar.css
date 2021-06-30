@@ -1,10 +1,14 @@
 
+::-webkit-scrollbar {
+    display:none;
+}
 
 #sidebar{
     background-color: burlywood;
     grid-area: sidebar;
     display: flex;
     flex-direction: column;
+    overflow:auto;
 }
 
 #sidebar a{
@@ -12,7 +16,7 @@
     display: block;
     transition: 0.5s;
     line-height: 50px;
-    margin-left: 10%;
+   
    
 }
 
@@ -33,12 +37,31 @@
 
 #sidebar span{
     padding: 0 5px;
+    margin-left: 10px;
+}
+
+#sidebar i{
+    margin-left: 20px;
 }
 
 
 
 @media (max-width:736px) {
-    
+    #sidebar a span{
+        display: none;
+    }
+
+    #sidebar center{
+        display:none;
+    }
+
+    #sidebar a i{
+        display: flex;
+        line-height: 50px;
+        margin-left: 0;
+        justify-content: center;
+        align-content: center;
+    }
 
   
     

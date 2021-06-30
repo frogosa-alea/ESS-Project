@@ -1,10 +1,11 @@
 @import url("admin-sidebar.css");
 @import url("admin-navbar.css");
+@import url("admin-footer.css");
 
 
 :root{
     --main-radius:10px;
-    --main-padding:5px;
+    --main-padding:2%;
 }
 
 *{
@@ -23,7 +24,7 @@
     "nav nav"
     "sidebar main"
     "sidebar footer";
-    grid-gap: 0.2rem;
+   
 }
 
 
@@ -32,10 +33,7 @@ main{
     grid-area: main;
 }
 
-footer{
-    grid-area: footer;
-    background-color: aqua;
-}
+
 
 
 
