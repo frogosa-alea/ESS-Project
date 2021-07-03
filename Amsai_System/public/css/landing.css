@@ -1,22 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Merriweather:ital,wght@1,300&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-  
+    font-family: 'Nunito', sans-serif;
 }
 
 
 
 
 body{
-    
-    /* background-image: url(../assets/backdrop.jpg);
-    background-size: cpver;
-    background-repeat: no-repeat; */
-  justify-content: center;
-  text-align: center;
-
+    justify-content: center;
+    text-align: center;
 }
 
 .container{
@@ -25,6 +19,7 @@ body{
     justify-content: center;
     text-align: center;
     border-radius: 25px;
+    background-color:white;
 }
  
 .content-1{
@@ -40,6 +35,7 @@ body{
 .logo{
     width:150px; 
     border-radius: 100%;
+    border: 2px solid #FD6300;
 }
 
 .mid{
@@ -79,21 +75,20 @@ body{
     justify-content: center;
     align-items: center;
     margin-top:5%;
-
+      
 }
 
 button{
+    width: 50%;
     font-weight: bolder;
     background-color: #FBD848;
-    border-radius: 25px;
-    border:0px;
-    width:25%;
     padding: 10px 30px;
-    margin: 5px; 
+    margin-bottom: 5px;
 }
 
 button:hover{
     background:#FD6300;
+    color:#FBD848;
 }
 
 .wave{
@@ -105,3 +100,11 @@ button:hover{
     
     
 }
+
+
+@media(max-width:736px){
+    button{
+        width:100%;
+    }
+}
+

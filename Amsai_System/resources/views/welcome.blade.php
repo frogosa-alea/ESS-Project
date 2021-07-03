@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
+
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
 
-        <!-- Style for Main -->
+        <!-- Style-->
 
-        <link rel="stylesheet" href="/css/landing.css">
+        <link rel="stylesheet" href="{{ URL::asset('css/landing.css'); }} ">
+        
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -26,10 +29,10 @@
     </head>
     <body class="antialiased">
         
-   <!-- MAIN  -->
+<!-- MAIN  -->
         <div class="container">
             <div class="content-1">
-                <img class="logo amsai" src="/assets/Logo.png" alt="AMSAI Logo">
+                <img class="logo amsai" src="/Assets/Logo.png" alt="AMSAI Logo">
             
                 <div class="content-1 mid">
                     <div class="name">
@@ -43,6 +46,31 @@
                     </div>
                 </div>
 
+                <div class="content-1 bottom">
+                    Blk 2 Lot 31 Kamagong St. Villa Carolina 2, Tunasan Muntinlupa City, Philippines
+                </div>
+           </div>
+
+           
+<!-- LOGIN BUTTONS -->
+            <div class="content-2">
+                @if (Route::has('login'))
+                    
+                        @auth
+                        <button><a href="{{ url('/home') }}" >Home</a></button>
+                @else
+                        <button class="border-bottom-0"><a href="{{ route('login') }}" >Log in</a></button>
+                            @if (Route::has('register'))
+                            <button ><a href="{{ route('register') }}" >Register</a></button>
+                            @endif
+                        @endauth
+                    
+                @endif
+                   
+        </div>
+
+
+     
          
                
            
