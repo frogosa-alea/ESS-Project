@@ -29,7 +29,7 @@ i {
 #navbarSupportedContent{
 	overflow: hidden;
 	position: relative;
-	display: flex;
+	/* display: flex; */
 	justify-content: flex-end;
 }
 #navbarSupportedContent ul{
@@ -178,7 +178,6 @@ i {
 /* footer css */
   footer{
 	background-color: #FFE077; 
-	min-width: 400px; 
 	width: 100%; 
 	text-align: center; 
 	line-height: 35px; 
@@ -204,7 +203,7 @@ i {
 	   font-size: 80%;
 	 }
   }
-  
+
   @media only screen and (max-width: 960px) {
 	.footer-bottom{
 	  text-align: center;
@@ -224,7 +223,7 @@ i {
 	  padding: 0px 10px;
 	}
   }
-  
+
   @media only screen and (min-width: 961px) {
 	.footer-bottom{text-align: left;
 	}
@@ -245,10 +244,70 @@ i {
 	}
   }
 
+
+/* student grades */
 .table{
 	font-size: 14px;
 }
 
 .grades-content{
-	padding-top: 5rem;
+	/* padding-top: 5rem;
+	padding-bottom: 5rem; */
+	border-color: #ddd;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 1px 1px gray;
+	padding:30px;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.btn{
+	background-color: #fc6300;
+	border-radius: 12px;
+	color: white;
+	margin-bottom: 5px;
+}
+
+thead{
+	background-color: #ffe077;
+	border-radius: 10px;
+}
+.grades-student-info .col{
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.grades-student-info .grades-student-personal tbody tr td , .grades-student-info thead span{
+	font-weight: bold;
+}
+
+.grades-student-info span{
+	font-weight: normal;
+}
+
+.grades-student-grades td {
+    border-right: 2px solid #FC6300;
+	border-left: 2px solid #FC6300;
+}
+
+.grades-student-grades tr:last-child td {
+    border: none;
+}
+.lastCell {
+    border-right: none;
+}
+
+@media only screen and (max-width: 480px) {
+	section{
+		padding: 10px;
+	}
+	.grades-content{
+		padding: 20px 10px 20px 10px;
+	}
+}
+
+/* student schedule */
+.schedule-student td{
+	border-right: 2px solid #FC6300;
+	border-left: 2px solid #FC6300;
 }

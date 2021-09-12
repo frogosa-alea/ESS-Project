@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Grades</title>
+    <title>Schedule</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/1f7074acbb.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -57,77 +57,44 @@
                     </tbody>
                 </table>
                 <br><br>
-                <!-- Learner Progress and Achievements Table -->
+                <!-- Attendance Report Table -->
                 <table class="table text-center grades-progress-achievement table-borderless" style="border:2px solid #FFC415; background-color:#FDF8DB; border-color:#FC6300">
-                    <thead class="border border-warning border border-2 "><th colspan="3">Learner Progress and Achievements</th>  </thead>
+                    <thead class="border border-warning border border-2 "><th colspan="3">Attendance Report Table</th>  </thead>
                     <tbody>
-                        <tr>
-                            <th scope="col">Descriptors</th>
-                            <th scope="col">Grading Sytem</th>
-                            <th scope="col">Remarks</th>
-                        </tr>
-                        <tr>
-                            <td>Outstanding</td>
-                            <td>90-100</td>
-                            <td>Passed</td>
-                        </tr>
-                        <tr>
-                            <td>Very Satisfactory</td>
-                            <td>85-89</td>
-                            <td>Passed</td>
-                        </tr>
-                        <tr>
-                            <td>Satisfactory</td>
-                            <td>80-84</td>
-                            <td>Passed</td>
-                        </tr>
-                        <tr>
-                            <td>Fairly Satisfactory</td>
-                            <td>75-79</td>
-                            <td>Passed</td>
-                        </tr>
-                        <tr>
-                            <td>Did Not Meet Expectations</td>
-                            <td>Below 75</td>
-                            <td>Failed</td>
-                        </tr>
+                        <tr style="height: 200px; border: 2px solid #FC6300"></tr>
                     </tbody>
                 </table>
-                <div class="d-grid gap-2 col-6 mx-auto ">
-                    <button class="btn" type="button">View Awards <i class="fa fa-star" aria-hidden="true"></i></button>
-                    <br>
-                </div>
             </div>
             <div class="col">
                 <!-- second column -->
-                <table class="table table-borderless text-center grades-student-grades">
+                <table class="table table-borderless text-center schedule-student">
                     <thead class="border border-warning border border-2 ">
                         <tr>
                             <th scope="col">#</th>
-                            <th scope="col" >Subject</th>
-                            <th scope="col" colspan="4" class="text-center">GRADING PERIOD</th>
+                            <th scope="col" >Day</th>
+                            <th scope="col" colspan="6" class="text-center">TIME</th>
                         </tr>
                     </thead>
                     <tr>
                         <th scope="col"></th>
                         <th scope="col"></th>
-                        <th scope="col">1st</th>
-                        <th scope="col">2nd</th>
-                        <th scope="col">3rd</th>
-                        <th scope="col">4th</th>
                     </tr>
                     <tbody>
                         <tr style="border-top: 2px solid #FC6300">
                             <td scope="row">1</td>
-                            <td>Lorem Ipsum</td>
+                            <td>Monday</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
                             <td sctdcol">A</td>
                             <td scope="col">A</td>
+                            <td scope="col">A</td>
+                            <td scope="col">A</td>
                         </tr>
                         <tr>
                             <td scope="row">2</td>
-                            <td>Lorem Ipsum</td>
+                            <td>Tuesday</td>
+                            <td scope="col">A</td>
+                            <td scope="col">A</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
@@ -135,7 +102,9 @@
                         </tr>
                         <tr>
                             <td scope="row">3</td>
-                            <td>Lorem Ipsum</td>
+                            <td>Wednesday</td>
+                            <td scope="col">A</td>
+                            <td scope="col">A</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
@@ -143,47 +112,19 @@
                         </tr>
                         <tr>
                             <td scope="row">4</td>
-                            <td>Lorem Ipsum</td>
+                            <td>Thursday</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
-                            <td scope="col">A</td>
-                            <td scope="col">A</td>
-                        </tr>
-                        <tr>
-                            <td scope="row">5</td>
-                            <td>Lorem Ipsum</td>
-                            <td scope="col">A</td>
-                            <td scope="col">A</td>
-                            <td scope="col">A</td>
-                            <td scope="col">A</td>
-                        </tr>
-                        <tr>
-                            <td scope="row">6</td>
-                            <td>Lorem Ipsum</td>
-                            <td scope="col">A</td>
-                            <td scope="col">A</td>
-                            <td scope="col">A</td>
-                            <td scope="col">A</td>
-                        </tr>
-                        <tr>
-                            <td scope="row">7</td>
-                            <td>Lorem Ipsum</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
                         </tr>
                         <tr style="border-bottom: 2px solid #FC6300">
-                            <td scope="row">8</td>
-                            <td>Lorem Ipsum</td>
+                            <td scope="row">5</td>
+                            <td>Friday</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
-                            <td scope="col">A</td>
-                            <td scope="col">A</td>
-                        </tr>
-                        <tr >
-                            <td scope="col"></td>
-                            <td scope="col">Average</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
                             <td scope="col">A</td>
